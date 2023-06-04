@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\manab\\source\\repos\\Project.SQS.Worker\\Project.SQS.Worker\\Project.SQS.Worker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\manab\\source\\repos\\Project.SQS.Worker\\Project.SQS.Worker\\Project.SQS.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\manab\\source\\repos\\Project.SQS.Worker\\Project.SQS.Worker\\Project.SQS.Worker.csproj",
+        "projectName": "Project.SQS.Worker",
+        "projectPath": "C:\\Users\\manab\\source\\repos\\Project.SQS.Worker\\Project.SQS.Worker\\Project.SQS.Worker.csproj",
+        "packagesPath": "C:\\Users\\manab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manab\\source\\repos\\Project.SQS.Worker\\Project.SQS.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\manab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.102.15, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

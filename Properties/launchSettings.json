@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Project.SQS.Worker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
